@@ -273,6 +273,23 @@ button:active {
 .autor-info > img{
     border-radius: 20rem;
     width: 1.5rem;
+    
+}
+
+.autor-info2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 58%;
+    width: 100%;
+    margin-top: 11%;
+}
+
+.autor-info2 > img{
+    width: 100%;
+    border-radius: 0px 0px 0.5rem 0.5rem;
+    height: 100%;
+    
 }
 
 .feedback-autor{
@@ -282,6 +299,187 @@ button:active {
     font-style: normal;
     font-weight: 600;
 }
+
+.funcionalidades{
+    display: flex;
+    flex-direction: column;
+    max-width: 1532px;
+    padding: 3rem 2rem;
+    margin: auto;
+}
+
+.funcionalidades-cabecalho{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.funcionalidades-titulo{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.funcionalidades-subtitulo{
+    color: #b3c2c7;
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.funcionalidades-card{
+    background: #111111;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 2rem;
+    height: 40vh;
+    flex-basis: 100rem; /* define comprimento(parecido com widht) de um item flex - se não for flex não tem efeito */
+}
+
+.funcionalidade-cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end; /*item é posicionada no final do container*/
+    width: 100%;
+}
+
+.funcionalidades-card1{
+    background: #111111;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+    height: 40vh;
+    justify-content: space-between;
+    flex-basis: 100rem; /* define comprimento(parecido com widht) de um item flex - se não for flex não tem efeito */
+}
+
+.funcionalidades-card1 > img{
+    border-radius: 0.5rem;
+}
+
+.funcionalidades-info{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 40%;
+}
+
+.funcionalidade-titulo{
+    color: #b3c2c7;
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.funcionalidades-nota{
+    color:#0aa3e1;
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.funcionalidades-descricao{
+    color: #b3c2c7;
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    width: 95%;
+    height: 80%;
+    line-height: 2rem;
+}
+
+.conteiner-funcionalidades2{
+    padding: 0rem 0rem;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.funcionalidades-cabecalho2{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.funcionalidades-titulo2{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.funcionalidades-subtitulo2{
+    color: #b3c2c7;
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.funcionalidades-card2{
+    background: #111111;
+    
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    height: 70vh;
+    margin-top: 2rem;
+    flex-basis: 100rem; /* define comprimento(parecido com widht) de um item flex - se não for flex não tem efeito */
+}
+
+.funcionalidade-cabecalho2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end; /*item é posicionada no final do container*/
+    width: 100%;
+    padding: 2rem;
+}
+
+.funcionalidades-info2{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%;
+}
+
+.funcionalidades-nota2{
+    color:#0aa3e1;
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.funcionalidades-descricao2{
+    color: #b3c2c7;
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    width: 100%;
+    line-height: 2rem;
+}
+
+.funcionalidade-cabecalho > img{
+    width: 30%;
+}
+
+
+
 
 footer{
     padding: 4rem;
@@ -305,3 +503,7 @@ footer{
     font-size: 1rem;
     font-weight: 500;
 }
+
+
+
+
