@@ -18,6 +18,7 @@ html{
 
 a{
     text-decoration: none;
+    color: #fff;
 }
 
 ul{
@@ -35,6 +36,11 @@ nav{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+}
+
+a:hover{
+    cursor: pointer;
+    color: #3aa8d4;
 }
 
 .logo{
@@ -477,8 +483,6 @@ button:active {
 .funcionalidade-cabecalho > img{
     width: 30%;
 }
-
-
 
 
 footer{
