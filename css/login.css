@@ -16,18 +16,21 @@ a{
     color: #fff;
 }
 
-
+main{
+  background: #06080f;
+}
 
 body{
   background: #06080f;
 }
 
 #conteiner{
-    color:#fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height:100vh;
+  background: #06080f;
+  color:#fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:100vh;
 }
 
 #login_form{
