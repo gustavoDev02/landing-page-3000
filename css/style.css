@@ -337,17 +337,6 @@ button:active {
     font-style: normal;
 }
 
-.funcionalidades-card{
-    background: #111111;
-    padding: 2rem;
-    border-radius: 0.5rem;
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    margin-top: 2rem;
-    height: 10vh;
-    flex-basis: 100rem; /* define comprimento(parecido com widht) de um item flex - se não for flex não tem efeito */
-}
 
 .funcionalidade-cabecalho{
     display: flex;
@@ -444,7 +433,7 @@ button:active {
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    height: 70;
+    height: 55rem;
     margin-top: 2rem;
     flex-basis: 100rem; /* define comprimento(parecido com widht) de um item flex - se não for flex não tem efeito */
 }
