@@ -69,12 +69,13 @@ main{
 
 .conteiner-produto{
     background: #020202;
+    
 }
 
 .produto{
     
     max-width: 1532px;
-    height: 50vh;
+    height: 40rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -310,6 +311,7 @@ button:active {
     display: flex;
     flex-direction: column;
     max-width: 1532px;
+    height: 110rem;
     padding: 3rem 2rem;
     margin: auto;
 }
@@ -343,7 +345,7 @@ button:active {
     flex-direction: column;
     gap: 2rem;
     margin-top: 2rem;
-    height: 40vh;
+    height: 10vh;
     flex-basis: 100rem; /* define comprimento(parecido com widht) de um item flex - se não for flex não tem efeito */
 }
 
@@ -362,7 +364,7 @@ button:active {
     display: flex;
     flex-direction: row;
     margin-top: 2rem;
-    height: 40vh;
+    height: 25rem;
     justify-content: space-between;
     flex-basis: 100rem; /* define comprimento(parecido com widht) de um item flex - se não for flex não tem efeito */
 }
@@ -410,6 +412,7 @@ button:active {
     display: flex;
     flex-direction: row;
     gap: 2rem;
+    height: 60rem;
     justify-content: center;
 }
 
@@ -441,7 +444,7 @@ button:active {
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    height: 70vh;
+    height: 70;
     margin-top: 2rem;
     flex-basis: 100rem; /* define comprimento(parecido com widht) de um item flex - se não for flex não tem efeito */
 }

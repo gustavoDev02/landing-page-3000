@@ -30,7 +30,7 @@ a{
     background: #111111;
     display: flex;
     flex-direction: column;
-    height: 40vh;
+    height: 40rem;
     padding: 2rem 2.5rem;
     border-radius: 0.5rem;
     gap: 4rem;
